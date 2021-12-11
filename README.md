@@ -1,6 +1,6 @@
 # fetch-with-timeout
 
-> Cancels HTTP requests wit the Abort API. Bring your own Fetch API implementation.
+> Cancels HTTP requests with the Abort API. Bring your own Fetch API implementation.
 # Requirements
 
 - Node.js >= v16.0.0
