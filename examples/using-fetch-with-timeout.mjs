@@ -1,15 +1,13 @@
 // using-fetch-with-timeout.mjs
 
-/**
- * This could be any implementation of the Fetch API.
- */
 import fetch from "node-fetch";
+import { createFetchWithTimeout } from "../src/fetch-with-timeout.js";
 
-import { fetchWithTimeout } from "../src/fetch-with-timeout.mjs";
+const fetchWithTimeout = createFetchWithTimeout({ fetch, timeout: 100 });
 
 try {
 	const url = "https://jsonplaceholder.typicode.com/posts";
-	const response = await fetchWithTimeout({ fetch, url, timeout: 100 });
+	const response = await fetchWithTimeout(url);
 	const responseData = await response.json();
 
 	console.log({ responseData });
