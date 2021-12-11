@@ -3,7 +3,7 @@
 > Cancels HTTP requests wit the Abort API. Bring your own Fetch API implementation.
 # Requirements
 
-- Node.js v16.0.0
+- Node.js >= v16.0.0
 
 _Note: This library won't be needed in future versions of Node.js which
 support [AbortSignal.timeout](https://github.com/nodejs/node/pull/40899)._
