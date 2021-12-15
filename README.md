@@ -1,6 +1,9 @@
 # fetch-with-timeout
 
 > Cancels HTTP requests with the Abort API. Bring your own Fetch API implementation.
+
+🤔 [Should I make this a proper package and publish it to npm?](https://github.com/simonplend/fetch-with-timeout/issues/1)
+
 # Requirements
 
 - Node.js >= v16.0.0
